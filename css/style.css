@@ -29,3 +29,22 @@ h2 {
     color:1d1a39;
     margin: 0 0 10px 0;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 6px;
+    font-size: 13px;
+    text-align: left;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+}
+input::placeholder {    
+    color: #bbb;
+}
