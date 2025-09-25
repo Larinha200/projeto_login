@@ -48,3 +48,15 @@ input {
 input::placeholder {    
     color: #bbb;
 }
+button {
+    margin-top: 18px;
+    padding:10px ;
+    background: #00d25b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background: #00b24f;
+}
